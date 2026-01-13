@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Abdilselam Ali – SharePoint & Full-Stack Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="5+ years SharePoint SME, PowerApps, React, C#. View portfolio, daily posts & résumé."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="assets/img/favicon.ico"/>
+</head>
+
+<body>
+<header class="header">
+  <nav class="nav container">
+    <a class="logo" href="#">AA</a>
+    <button class="nav__toggle" aria-label="open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#posts">Daily Posts</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- 1. HERO -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1 class="hero__title">Hi, I’m <span class="accent">Abdilselam Ali</span></h1>
+        <p class="hero__subtitle">5+ Years SharePoint Developer & Microsoft 365 Specialist</p>
+        <p class="hero__summary" data-key="summary"></p>
+        <div class="hero__actions">
+          <a href="assets/resume.pdf" download class="btn btn--primary">Download Résumé</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero__img">
+        <img data-key="photo" alt="Abdilselam Ali"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p data-key="bio"></p>
+
+      <h3>Technical Skills</h3>
+      <ul class="skills" data-key="skills.tech"></ul>
+
+      <h3>Tools & Platforms</h3>
+      <ul class="skills" data-key="skills.tools"></ul>
+    </div>
+  </section>
+
+  <!-- 3. PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio__grid" data-key="projects"></div>
+    </div>
+  </section>
+
+  <!-- 4. DAILY POSTS -->
+  <section id="posts" class="posts">
+    <div class="container">
+      <h2>Daily Posts</h2>
+      <div class="posts__list" id="postsList"></div>
+
+      <!-- Simple editor for owner (optional) -->
+      <details class="posts__editor">
+        <summary>Add new post (owner only)</summary>
+        <form id="postForm">
+          <textarea required maxlength="280" placeholder="What’s new today?"></textarea>
+          <button class="btn btn--primary">Post</button>
+        </form>
+      </details>
+    </div>
+  </section>
+
+  <!-- 5. CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm" class="contact__form">
+        <label>
+          Name
+          <input type="text" name="name" required/>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required/>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn btn--primary">Send Message</button>
+        <p class="form__result" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- 6. FOOTER / SOCIAL -->
+<footer class="footer">
+  <div class="container footer__flex">
+    <p>© <span id="year"></span> Abdilselam Ali</p>
+    <div class="socials" data-key="socials"></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
