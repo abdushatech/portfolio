@@ -1,0 +1,36 @@
+{
+  "photo": "assets/img/abdilselam.jpg",
+  "summary": "Highly motivated SharePoint & Microsoft 365 developer with 5+ years designing intranets, automating workflows, and migrating on-prem to cloud. Passionate about low-code solutions and clean UX.",
+  "bio": "I started my tech journey maintaining SharePoint 2013 farms at Dart Container, then led migrations to SharePoint Online, automated business processes with Power Automate and Nintex, and built PowerApps used by 3k+ employees. Currently finishing my B.S. in Computer Science at Millersville University while working at Amazon and freelancing on small-business sites.",
+  "skills": {
+    "tech": ["SharePoint Online/2013","PowerApps","Power Automate","C#","ASP.NET","JavaScript","React","REST API","PowerShell"],
+    "tools": ["Visual Studio","GitHub","Azure DevOps","ShareGate","Nintex","InfoPath","Teams","Yammer"]
+  },
+  "projects": [
+    {
+      "title":"Corporate Intranet Redesign",
+      "desc":"Migrated 400 GB SharePoint 2013 to modern SharePoint Online with new information architecture, hubs & multilingual support.",
+      "tech":["SharePoint Online","PowerShell","ShareGate","PnP"],
+      "demo":"",
+      "repo":""
+    },
+    {
+      "title":"Expense Approval PowerApp",
+      "desc":"Low-code canvas app that routes expense reports through 3-tier approval; integrates with Outlook & Teams.",
+      "tech":["PowerApps","Power Automate","Dataverse","Teams"],
+      "demo":"https://apps.powerapps.com/play/...",
+      "repo":""
+    },
+    {
+      "title":"React Portfolio Template",
+      "desc":"Open-source single-page portfolio template built with Next.js, Tailwind & Framer-motion (this site!).",
+      "tech":["React","Next.js","Tailwind","Vercel"],
+      "demo":"",
+      "repo":"https://github.com/yourname/next-portfolio"
+    }
+  ],
+  "socials": [
+    {"name":"LinkedIn","url":"https://linkedin.com/in/abdilselamali"},
+    {"name":"GitHub","url":"https://github.com/abdilselam"}
+  ]
+}
